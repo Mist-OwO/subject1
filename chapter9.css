@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header {
+  width: auto;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+  width: auto;
+}
+
+.main {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.step1 {
+  width: 300px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.step1-content {
+  padding: 10px;
+}
+
+.step1-heading {
+  width: 43px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #FF9A4B
+}
+
+.step1-image {
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step1-text-heading {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.step1-text-date {
+  font-size: 12px;
+}
+
+.step2 {
+  width: 300px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0px 30px;
+}
+
+.step2-content {
+  padding: 10px;
+}
+
+.step2-heading {
+  width: 43px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #FF9A4B
+}
+
+.step2-image {
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step2-text-heading {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.step2-text-date {
+  font-size: 12px;
+}
+
+.step3 {
+  width: 300px;
+  background-color: #EEEEEE;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.step3-content {
+  padding: 10px;
+}
+
+.step3-heading {
+  width: 43px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background-color: #FF9A4B
+}
+
+.step3-image {
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.step3-text-heading {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+.step3-text-date {
+  font-size: 12px;
+}
+
+footer {
+  width: auto;
+  height: 50px;
+  background-color: #AAAAAA;
+}
+
+@media screen and (max-width: 768px) {
+  .heading {
+  width: 100%;
+ }
+
+ mian {
+   width: 100%;
+ }
+
+ .main {
+   width: 100%;
+   display: block;
+ }
+
+.step1 {
+  width: 90%;
+  margin-top: 50px;
+  margin: 0 auto;
+ }
+
+.step2 {
+  width: 90%;
+  margin: 20px auto;
+ }
+
+.step3 {
+  width: 90%;
+  margin-bottom: 50px;
+  margin: 0 auto;
+ }
+}
